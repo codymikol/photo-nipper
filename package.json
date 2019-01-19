@@ -1,16 +1,19 @@
 {
-  "name": "photo-nipperr",
-  "version": "1.0.0",
-  "description": "A little toolio to automate making thumbnails - med res - and full res optimized photos for koanin",
+  "name": "photo-nipper",
+  "version": "0.0.0",
+  "description": "A toolchain to help manage user uploaded images.",
   "main": "index.js",
   "repository": "https://github.com/codymikol/photo-nipper",
   "author": "Cody Mikol",
   "license": "MIT",
   "private": false,
+  "scripts":{
+    "test": "echo 'Testing not yet implemented'"
+  },
   "dependencies": {
-    "imagemin": "^6.1.0",
-    "imagemin-jpeg-recompress": "^6.0.0",
-    "imagemin-jpegtran": "^6.0.0",
-    "jimp": "^0.6.0"
+    "imagemin": "6.1.0",
+    "imagemin-jpeg-recompress": "6.0.0",
+    "imagemin-jpegtran": "6.0.0",
+    "jimp": "0.6.0"
   }
 }
