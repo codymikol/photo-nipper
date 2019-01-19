@@ -1,0 +1,7 @@
+/node_modules
+/photos
+/thumbnail
+/fullsize
+build
+/.idea
+.DS_store
